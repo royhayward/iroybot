@@ -1,0 +1,19 @@
+{
+  "name": "iroybot",
+  "version": "1.0.0",
+  "description": "a website to play with",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royhayward/iroybot.git"
+  },
+  "author": "Roy Hayward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/royhayward/iroybot/issues"
+  },
+  "homepage": "https://github.com/royhayward/iroybot#readme"
+}
