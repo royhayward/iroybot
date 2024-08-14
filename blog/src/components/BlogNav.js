@@ -3,6 +3,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Nav, Form, FormControl } from 'react-bootstrap';
+import logo from './img/iroybot-special-projects.png';
 
 const BlogNav = () => {
     return (
@@ -11,12 +12,11 @@ const BlogNav = () => {
                 backgroundColor:"#A3C1D4"
             }}>
                 <img
-              src='https://media.geeksforgeeks.org/gfg-gg-logo.svg'
-              height='30'
+              src={logo}
+              height='65'
               alt=''
               loading='lazy'
             />
-                <Navbar.Brand href="#home" style={{color:"white", marginLeft:"10px"}}>GeeksforGeeks</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-end">
                     <Nav>
