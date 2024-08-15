@@ -13,17 +13,13 @@ const Post2 = () => {
                 height={250}
             />
             <Card.Body>
-                <Card.Title>Data Structure</Card.Title>
+                <Card.Title>Exterior Parking Loss-Prevention Case</Card.Title>
                 <Card.Text>
-                    The word Algorithm means “a process
-                    or set of rules to be followed in calculations
-                    or other problem-solving operations”. Therefore
-                    Algorithm refers to a set of rules/instructions
-                    that step-by-step define how a work is to be
-                    executed upon in order to get the expected
-                    results.
+                    In this case one of the detection technologies creates an event. the LVT unit responds. And other assets are called to gather inforation. A case is initiated and events inside the store or subsequent events outside the store accumulate for transmission to case management.
                 </Card.Text>
-                <a href="#" className="btn btn-primary">Read More</a>
+                <a href="#" className="btn btn-primary">Trigger Mobile Detection</a> 
+                <a href="#" className="btn btn-primary">Trigger LPR Detection</a> 
+                <a href="#" className="btn btn-primary">Trigger Suspicious Activity Detection</a> 
             </Card.Body>
         </Card>
     )

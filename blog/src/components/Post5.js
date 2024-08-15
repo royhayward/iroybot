@@ -13,11 +13,11 @@ const Post4 = () => {
                 height={250}
             />
             <Card.Body>
-                <Card.Title>Interior POS Fraud Loss-Prevention Case</Card.Title>
+                <Card.Title>Interior Push-Out Loss-Prevention Case</Card.Title>
                 <Card.Text>
-                    In this casa, an action at the Point-Of-Sale kiosk is flagged. This sends an event that triggers other assets to gather information and opens a case. Audible messages may be broadcast, and checkout may be delayed so that an associate can evaluate the situation.
+                    In this case, the shopper bypasses the checkout with products and attempts to exity the store. An event is triggered that begins a case. Other assets are triggered to gather information. If possible, the shopping cart is immobilized to prevent the shopper from leaving with the product.
                 </Card.Text>
-                <a href="#" className="btn btn-primary">Trigger Fraud Event</a>
+                <a href="#" className="btn btn-primary">Trigger Push-out</a>
             </Card.Body>
         </Card>
     )

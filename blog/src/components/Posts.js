@@ -5,6 +5,7 @@ import Post1 from "./Post1";
 import Post2 from "./Post2";
 import Post3 from "./Post3";
 import Post4 from "./Post4";
+import Post5 from "./Post5";
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
 
@@ -18,12 +19,13 @@ const Posts = () => {
                 <Col md={2} className="mt-4 float-right">
                     <Card>
                         <Card.Body>
-                            <Card.Title>Recent Posts</Card.Title>
+                            <Card.Title>Poss-Prevention Cases:</Card.Title>
                             <ul className="list-unstyled">
-                                <li><a href="#">JavaScript</a></li>
-                                <li><a href="#">Data Structure</a></li>
-                                <li><a href="#">Algorithm</a></li>
-                                <li><a href="#">Computer Network</a></li>
+                                <li><a href="#">Perimeter</a></li>
+                                <li><a href="#">Parking</a></li>
+                                <li><a href="#">Product</a></li>
+                                <li><a href="#">Point-of-Sale</a></li>
+                                <li><a href="#">Push-Out</a></li>
                             </ul>
                         </Card.Body>
                     </Card>
@@ -36,6 +38,9 @@ const Posts = () => {
                 </Col>
                 <Col md={8} className="mb-4">
                     <Post4 />
+                </Col>
+                <Col md={8} className="mb-4">
+                    <Post5 />
                 </Col>
             </Row>
         </Container>

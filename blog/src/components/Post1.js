@@ -13,18 +13,11 @@ const Post1 = () => {
                 height={250}
             />
             <Card.Body>
-                <Card.Title>JAVASCRIPT</Card.Title>
+                <Card.Title>Exterior Perimeter Loss-Prevention Case</Card.Title>
                 <Card.Text>
-                    JavaScript is the world most popular
-                    lightweight, interpreted compiled programming
-                    language. It is also known as scripting
-                    language for web pages. It is well-known for
-                    the development of web pages, many non-browser
-                    environments also use it. JavaScript can be
-                    used for Client-side developments as well as
-                    Server-side developments
+                    In this case, we have an intruder that interacts with a fence like climbing or cutting. The alert triggers a response from the LVT unit. It also triggers information gathering actions of other assets.
                 </Card.Text>
-                <a href="#" className="btn btn-primary">Read More</a>
+                <a href="#" className="btn btn-primary">Trigger Fence</a>
             </Card.Body>
         </Card>
     );

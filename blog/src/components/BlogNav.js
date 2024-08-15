@@ -19,7 +19,8 @@ const BlogNav = () => {
             />
                 <Navbar.Toggle />
                 <Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-end">
-                    <Nav>
+                    
+                    {/* <Nav>
                         <Nav.Link href="#home" style={{color:"white"}}>
                             JavaScript
                         </Nav.Link>
@@ -36,6 +37,7 @@ const BlogNav = () => {
                     <Form inline>
                         <FormControl type="text" placeholder="Search" className="ml-auto"  />
                     </Form>
+                     */}
                 </Navbar.Collapse>
             </Navbar>
         </div>
