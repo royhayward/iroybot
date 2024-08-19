@@ -1,14 +1,14 @@
 // Post4.js
 
 import { Card } from "react-bootstrap";
+import image from './img/pos-loss-prevention.png';
 
 const Post4 = () => {
     return (
         <Card>
             <Card.Img
                 variant="top"
-                src=
-"https://media.geeksforgeeks.org/img-practice/banner/cp-maths-java-thumbnail.png"
+                src={image}
                 width={20}
                 height={250}
             />

@@ -1,13 +1,14 @@
 // Post3.js
 
 import { Card } from "react-bootstrap";
+import image from './img/shelf-loss-prevention.png';
+
 const Post3 = () => {
     return (
         <Card>
             <Card.Img
                 variant="top"
-                src=
-"https://media.geeksforgeeks.org/img-practice/banner/google-test-series-thumbnail.png"
+                src={image}
                 width={20}
                 height={250}
             />

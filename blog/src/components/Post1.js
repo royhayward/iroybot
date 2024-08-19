@@ -1,14 +1,14 @@
 // Post1.js
 
 import { Card } from "react-bootstrap";
+import image from './img/Perimeter-Detection.png';
 
 const Post1 = () => {
     return (
         <Card>
             <Card.Img
                 variant="top"
-                src=
-                "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230305183140/Javascript.jpg"
+                src={image}
                 width={20}
                 height={250}
             />
